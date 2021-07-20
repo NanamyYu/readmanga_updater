@@ -1,3 +1,8 @@
+import requests
+from bs4 import BeautifulSoup
+import telebot
+
+
 TOKEN = '<здесь надо вставить токен тг-бота>'
 read_bot = telebot.TeleBot(TOKEN)
 manga_check = {}
