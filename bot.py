@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import telebot
+from flask import Flask, request
 
 
 TOKEN = '<здесь надо вставить токен тг-бота>'
