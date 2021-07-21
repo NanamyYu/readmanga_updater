@@ -6,6 +6,7 @@ from flask import Flask, request
 
 TOKEN = '<здесь надо вставить токен тг-бота>'
 read_bot = telebot.TeleBot(TOKEN)
+server = Flask(__name__)
 manga_check = {}
 
 @read_bot.message_handler(commands=['start'])  
